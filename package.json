@@ -1,0 +1,22 @@
+{
+  "name": "react-node-mui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server/main.js",
+    "dev": "node -r dotenv/config server/main.js",
+    "prod": "NODE_ENV=production node server/main.js",
+    "build": "cd client && npm run build",
+    "publish": "cd client && npm install && npm run build"
+  },
+  "author": "Joshua Viney",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
